@@ -332,7 +332,7 @@ npm run dev
 ```
 
 ## Rota Listagem de Transações: `GET` `/transacao` ou `GET` `/transacao?filtro[]=categoria_id` 
-- Esta rota será utilizada quando o usuário logado quiser listar todas as suas transações cadastradas. 
+- Esta rota será utilizada quando o usuário logado quiser listar todas as suas transações cadastradas, ou listar suas transações cadastradas por categoria financeira.
 - Envio da requisição:
 	- Header (cabeçalho): é obrigatório enviar o token de autenticação (no formato Bearer Token).
    	- *Parâmetro de Consulta (opcional)*: Caso o usuário deseje filtrar as transações por categoria, basta informar o id da categoria como um filtro.
