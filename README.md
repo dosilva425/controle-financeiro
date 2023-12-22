@@ -82,7 +82,7 @@ npm run dev
 #### **Exemplo de requisição**
 
 ```javascript
-// POST /usuario
+// POST /usuarios
 {
     "nome": "José",
     "email": "jose@email.com",
