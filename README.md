@@ -250,9 +250,9 @@ npm run dev
 ## Rota Cadastro de Transação: `POST` `/transacao`
 - Esta rota será utilizada para cadastrar uma transação associada ao usuário logado.
 - Envio da requisição:
-	- Body (corpo): é obrigatório informar descricao, valor, data, categoria_id e tipo (entrada ou saida (de valor));
+	- Body (corpo): é obrigatório informar descricao, valor (em centavos), data, categoria_id e tipo (entrada ou saida (de valor));
 	- Header (cabeçalho): é obrigatório enviar o token de autenticação (no formato Bearer Token).
-- Retorno da requisição: id, tipo, descricao, valor, data, usuario_id, categoria_id, categoria_nome.
+- Retorno da requisição: id, tipo, descricao, valor (em centavos), data, usuario_id, categoria_id, categoria_nome.
 
 #### **Exemplo de requisição**
 
