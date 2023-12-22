@@ -1,5 +1,3 @@
-![](https://i.imgur.com/xG74tOh.png)
-
 # Controle Financeiro (API REST)
 
 Este é um projeto piloto de criação da API REST de um sistema de controle financeiro. Ele foi concebido a partir de um trabalho em dupla para o desafio do módulo 3 do curso de desenvolvimento de software back-end da Cubos Academy (Ifood).
