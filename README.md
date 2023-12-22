@@ -4,6 +4,9 @@ Este é um projeto piloto de criação da API REST de um sistema de controle fin
 
 Integrantes da dupla: Débora de Oliveira Silva ([@dosilva425](https://github.com/dosilva425)) e Isabel Diana Pereira de Lima ([@isabeldiana](https://github.com/isabeldiana)).
 
+<img src="https://github.com/dosilva425/controle-financeiro/blob/main/prints/categorias.png">
+<img src="https://github.com/dosilva425/controle-financeiro/blob/main/prints/extrato.png">
+
 # Funcionalidades
 
 - Cadastro de usuário (com criptografia de senha)
