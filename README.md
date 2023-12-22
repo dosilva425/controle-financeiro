@@ -66,7 +66,8 @@ npm run dev
 - [GET]/categoria
 - [POST]/transacao
 - [GET]/transacao/:id
-- [GET]/transacao ou [GET]/transacao?filtro[]=categoria_id (filtragem de transações por categoria financeira)
+- [GET]/transacao
+	- [GET]/transacao?filtro[]=categoria_id (filtragem de transações por categoria financeira)
 - [GET]/transacao/extrato
 - [PUT]/transacao/:id
 - [DEL]/transacao/:id
