@@ -151,7 +151,7 @@ npm run dev
 
 ---
 
-## Rota Detalhamento de Perfil Usuário Logado: `POST` `/usuario`
+## Rota Detalhamento de Perfil Usuário Logado: `GET` `/usuario`
 - Esta rota será utilizada quando o usuário logado quiser obter os dados do seu próprio perfil.
 - Envio da requisição:
 	- Header (cabeçalho): é obrigatório enviar o token de autenticação (no formato Bearer Token).
