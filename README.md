@@ -71,6 +71,48 @@ npm run dev
 - [PUT]/transacao/:id
 - [DEL]/transacao/:id
 
+<details>
+<summary><b>Maiores Detalhes</b></summary>
+
+## **Banco de Dados**
+
+- usuarios
+  - id
+  - nome
+  - email (campo único)
+  - senha
+- categorias
+  - id
+  - descricao
+- transacoes
+  - id
+  - descricao
+  - valor (centavos)
+  - data 
+  - categoria_id
+  - usuario_id
+  - tipo
+ 
+## **Categorias Cadastradas**
+
+- Alimentação
+- Assinaturas e Serviços
+- Casa
+- Mercado
+- Cuidados Pessoais
+- Educação
+- Família
+- Lazer
+- Pets
+- Presentes
+- Roupas
+- Saúde
+- Transporte
+- Salário
+- Vendas
+- Outras receitas
+- Outras despesas
+
 # Exemplos de Requisição e Resposta
 
 ## Rota Cadastro de Usuário: `POST` `/usuarios`
