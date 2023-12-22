@@ -183,7 +183,7 @@ npm run dev
 ```
 
 ## Rota Edição de Perfil do Usuário Logado: `PUT` `/usuario`
-- Esta rota será utilizada para editar o perfil de um usuário cadastrado no sistema.
+- Esta rota será utilizada para editar o perfil de um usuário cadastrado logado no sistema.
 - Envio da requisição:
 	- Body (corpo): é obrigatório informar nome, email (único) e senha.
    	- Header (cabeçalho): é obrigatório enviar o token de autenticação (no formato Bearer Token).
